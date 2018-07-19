@@ -1,10 +1,10 @@
 import Vue from 'vue'
 import App from './App.vue'
-import router from './router'
-
-Vue.config.productionTip = false
+import zircle from 'zircle'
+import 'zircle/dist/zircle.css'
+Vue.use(zircle)
+Vue.config.productionTip = true
 
 new Vue({
-  router,
   render: h => h(App)
 }).$mount('#app')
