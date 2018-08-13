@@ -1,51 +1,75 @@
 <template>
-  <z-view name="home">
-  11:53 PM <br>
-  Monday, October 2018
-  <h1>Welcome</h1>
-  Outside <br>
-  29 C Sunny
-  <div slot="extension">
-        <z-nav
-          :angle="225"
-          size="m"
-          :distance="130"
-          label="Favorites"
-          to-view="collection">3
-        </z-nav>
-        <z-nav
-          :angle="-90"
-          size="s"
-          :distance="130"
-          label="Rooms"
-          to-view="collection">4
-        </z-nav>
-        <z-nav
-          :angle="-45"
-          :distance="130"
-          size="s"
-          label="Devices"
-          to-view="collection">5
-        </z-nav>
-    <z-nav
-      :angle="0"
-      :distance="120"
-      label="Automation"
-      to-view="collection">0
-    </z-nav>
-    <z-nav
-      :angle="3"
-      :distance="120"
-      size="xl"
-      to-view="collection">
-      All it'1s Ok
-    </z-nav>
-    <z-nav
-      :angle="140"
-      :distance="120"
-      label="Settings"
-      to-view="collection">...
-    </z-nav>
+  <z-view>
+    11:53 PM
+    <br>
+    Monday, Oct.
+    <br>
+    <br>
+    <h1>Night mode </h1>
+    <br>
+    Outside 29˚C, sunny
+    <br>
+    Inside 25˚C
+    <div slot="extension">
+      <!-- status monitor -->
+      <z-spot
+        style="background-color: orange; border-width: 4px; border-color: var(--background-color);"
+        :angle="-145"
+        size="m"
+        :distance="120"
+        to-view="status">
+        <i style="color: var( --accent-text-color)" class="fas fa-bell"></i><br>
+        <span style="color: var( --accent-text-color)">15</span>
+      </z-spot>
+      <!-- family-->
+      <z-spot
+        :angle="-30"
+        size="s"
+        :distance="120"
+        label="family"
+        label-pos="right"
+        to-view="maps">
+        <i class="fas fa-map-marker-alt"></i>
+      </z-spot>
+      <!-- scenes-->
+      <z-spot
+        :angle="0"
+        size="s"
+        :distance="120"
+        label="scenes"
+        label-pos="right"
+        to-view="scenes">
+        4
+      </z-spot>
+      <!-- rooms-->
+      <z-spot
+        :angle="30"
+        size="s"
+        :distance="120"
+        label="Rooms"
+        label-pos="right"
+        to-view="rooms">
+        5
+      </z-spot>
+      <!-- devices-->
+      <z-spot
+        :angle="60"
+        :distance="120"
+        size="s"
+        label="Devices"
+        label-pos="right"
+        to-view="devices">
+        45
+      </z-spot>
+      <!-- settings-->
+      <z-spot
+        :angle="150"
+        :distance="120"
+        size="s"
+        label="Settings"
+        to-view="settings">
+        <i class="fas fa-sliders-h"></i>
+      </z-spot>
     </div>
   </z-view>
 </template>

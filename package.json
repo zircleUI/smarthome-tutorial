@@ -1,36 +1,44 @@
 {
-  "name": "tutorial-example",
+  "name": "smart-home",
   "version": "0.1.0",
-  "description": "A tutorial example to show some of the zircle features",
+  "description": "Demo app for zircle-ui tutorial",
   "author": "Juan Martín Muda <juan.martin.muda@gmail.com>",
-  "keywords": [
-    "zircle",
-    "zircle-ui",
-    "tutorial"
-  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "keywords": [
+    "zircle",
+    "smart-home",
+    "tutorial",
+    "vue",
+    "javascript"
+  ],
   "dependencies": {
-    "leaflet": "^1.3.1",
-    "vue": "^2.5.16",
+    "leaflet": "^1.3.3",
+    "smoothie": "^1.35.0",
+    "vue": "^2.5.17",
     "vue-router": "^3.0.1",
-    "zircle": "file:../../nestorm"
+    "zircle": "^0.9.0-rc.6"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.0.0-beta.15",
-    "@vue/cli-plugin-eslint": "^3.0.0-beta.15",
-    "@vue/cli-service": "^3.0.0-beta.15",
-    "@vue/eslint-config-standard": "^3.0.0-rc.3",
+    "@vue/cli-plugin-babel": "^3.0.0",
+    "@vue/cli-plugin-eslint": "^3.0.0",
+    "@vue/cli-service": "^3.0.0",
+    "@vue/eslint-config-standard": "^3.0.0",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.1",
-    "vue-template-compiler": "^2.5.16"
+    "vue-template-compiler": "^2.5.17"
   },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ]
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zircleui/tutorial.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zircleui/tutorial/issues"
+  },
+  "homepage": "https://github.com/zircleui/tutorial#readme",
+  "license": "MIT"
 }
+

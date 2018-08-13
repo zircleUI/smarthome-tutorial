@@ -3,7 +3,7 @@ import App from './App.vue'
 import zircle from 'zircle'
 import 'zircle/dist/zircle.css'
 Vue.use(zircle)
-Vue.config.productionTip = true
+Vue.config.productionTip = false
 
 new Vue({
   render: h => h(App)
