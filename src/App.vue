@@ -19,7 +19,7 @@ export default {
     devices: () => import('./views/devices'),
     status: () => import('./views/status'),
     scenes: () => import('./views/scenes'),
-    maps: () => import('./views/maps'),
+    family: () => import('./views/family'),
     logs: () => import('./views/logs')
   },
   mounted () {
