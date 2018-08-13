@@ -28,7 +28,7 @@
         :distance="120"
         label="family"
         label-pos="right"
-        to-view="maps">
+        to-view="family">
         <i class="fas fa-map-marker-alt"></i>
       </z-spot>
       <!-- scenes-->
