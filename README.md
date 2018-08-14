@@ -1,4 +1,4 @@
-# smart-home tutorial
+# Zircle-ui: smart-home tutorial
 
 > This app is part of [the **zircle-ui** tutorial](https://zircleui.github.io/docs/tutorial/)
 
