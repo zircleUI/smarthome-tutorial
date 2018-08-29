@@ -1,6 +1,6 @@
 # Zircle-ui: smart-home tutorial
 
-> This app is part of [the official **zircle-ui** tutorial](https://zircleui.github.io/docs/tutorial/). You can find a working demo on [**CodeSandbox**](https://codesandbox.io/s/23wlzq4l1r?view=preview)
+> This app is part of [the official **zircle-ui** tutorial](https://zircleui.github.io/docs/tutorial/). You can play with a working demo on [**CodeSandbox**](https://codesandbox.io/s/23wlzq4l1r?view=preview)
 
 <img src="https://raw.githubusercontent.com/zircleUI/docs/master/docs/.vuepress/public/smart-home.jpg" style="margin-top: 20px; display: block; margin-left: auto; margin-right: auto; width: 100%;" />
 
