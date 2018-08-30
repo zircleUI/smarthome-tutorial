@@ -1,6 +1,6 @@
 # Zircle-ui: smart-home tutorial
 
-> :wave: This app is powered by [**zircle-ui**](https://github.com/zircleUI/zircleUI) and is part of [its official tutorial](https://zircleui.github.io/docs/tutorial/). You can play with a working demo on [**CodeSandbox**](https://codesandbox.io/s/23wlzq4l1r?view=preview)
+> :wave: This app is powered by [**zircle-ui**](https://github.com/zircleUI/zircleUI) :rocket: and is part of [its official tutorial](https://zircleui.github.io/docs/tutorial/). You can play with a working demo on [**CodeSandbox**](https://codesandbox.io/s/23wlzq4l1r?view=preview)
 
 <img src="https://raw.githubusercontent.com/zircleUI/docs/master/docs/.vuepress/public/smart-home.jpg" style="margin-top: 20px; display: block; margin-left: auto; margin-right: auto; width: 100%;" />
 
