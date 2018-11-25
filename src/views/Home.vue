@@ -5,7 +5,7 @@
     Monday, Oct.
     <br>
     <br>
-    <h1>Night mode </h1>
+    <h1>Night mode</h1>
     <br>
     Outside 29˚C, sunny
     <br>
