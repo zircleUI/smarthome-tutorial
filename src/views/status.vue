@@ -14,7 +14,7 @@
   </z-view>
 </template>
 <script>
-import {TimeSeries, SmoothieChart} from 'smoothie'
+import { TimeSeries, SmoothieChart } from 'smoothie'
 export default {
   data () {
     return {
@@ -42,7 +42,7 @@ export default {
         borderVisible: false
       },
       tooltip: true,
-      labels: {disabled: true}
+      labels: { disabled: true }
     })
     smoothie.addTimeSeries(line1, {
       strokeStyle: 'rgb(0, 255, 0)',

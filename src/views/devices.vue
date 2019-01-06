@@ -26,20 +26,20 @@ export default {
   data () {
     return {
       devices: [
-        {category: 'cameras & sensors', qty: 4},
-        {category: 'care', qty: 1},
-        {category: 'climate', qty: 2},
-        {category: 'doors & locks', qty: 2},
-        {category: 'energy', qty: 1},
-        {category: 'garage doors', qty: 1},
-        {category: 'home & family', qty: 6},
-        {category: 'lawn & garden', qty: 0},
-        {category: 'lights & switches', qty: 13},
-        {category: 'smoke & co', qty: 3},
-        {category: 'voice assistant', qty: 1},
-        {category: 'water', qty: 1},
-        {category: 'windows & blinds', qty: 3},
-        {category: 'entertainment', qty: 3}
+        { category: 'cameras & sensors', qty: 4 },
+        { category: 'care', qty: 1 },
+        { category: 'climate', qty: 2 },
+        { category: 'doors & locks', qty: 2 },
+        { category: 'energy', qty: 1 },
+        { category: 'garage doors', qty: 1 },
+        { category: 'home & family', qty: 6 },
+        { category: 'lawn & garden', qty: 0 },
+        { category: 'lights & switches', qty: 13 },
+        { category: 'smoke & co', qty: 3 },
+        { category: 'voice assistant', qty: 1 },
+        { category: 'water', qty: 1 },
+        { category: 'windows & blinds', qty: 3 },
+        { category: 'entertainment', qty: 3 }
       ]
     }
   }

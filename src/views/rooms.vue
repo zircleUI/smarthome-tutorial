@@ -61,11 +61,11 @@ export default {
   data () {
     return {
       rooms: [
-        {name: 'Living', devices: 6, image: './living.jpg'},
-        {name: 'Bedroom', devices: 2, status: 'alert'},
-        {name: 'Kitchen', devices: 5},
-        {name: 'Studio', devices: 1},
-        {name: 'Bath', devices: 1}
+        { name: 'Living', devices: 6, image: './living.jpg' },
+        { name: 'Bedroom', devices: 2, status: 'alert' },
+        { name: 'Kitchen', devices: 5 },
+        { name: 'Studio', devices: 1 },
+        { name: 'Bath', devices: 1 }
       ],
       openDialog: false
     }
