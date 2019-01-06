@@ -1,6 +1,6 @@
 {
   "name": "smart-home",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Demo app for zircle-ui tutorial",
   "author": "Juan Martín Muda <juan.martin.muda@gmail.com>",
   "scripts": {
