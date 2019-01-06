@@ -16,20 +16,20 @@
     "javascript"
   ],
   "dependencies": {
-    "leaflet": "^1.3.3",
+    "leaflet": "^1.4.0",
     "smoothie": "^1.35.0",
-    "vue": "^2.5.17",
-    "vue-router": "^3.0.1",
-    "zircle": "^1.1.3"
+    "vue": "^2.5.21",
+    "vue-router": "^3.0.2",
+    "zircle": "^1.2.1"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.0.0",
-    "@vue/cli-plugin-eslint": "^3.0.0",
-    "@vue/cli-service": "^3.0.0",
-    "@vue/eslint-config-standard": "^3.0.0",
-    "node-sass": "^4.9.0",
+    "@vue/cli-plugin-babel": "^3.2.2",
+    "@vue/cli-plugin-eslint": "^3.2.2",
+    "@vue/cli-service": "^3.2.3",
+    "@vue/eslint-config-standard": "^3.0.5",
+    "node-sass": "^4.11.0",
     "sass-loader": "^7.0.1",
-    "vue-template-compiler": "^2.5.17"
+    "vue-template-compiler": "^2.5.21"
   },
   "repository": {
     "type": "git",
