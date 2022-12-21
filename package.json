@@ -17,7 +17,7 @@
   ],
   "dependencies": {
     "leaflet": "^1.4.0",
-    "smoothie": "^1.35.0",
+    "smoothie": "^1.36.1",
     "vue": "^2.6.10",
     "vue-router": "^3.0.6",
     "zircle": "^1.2.5"
